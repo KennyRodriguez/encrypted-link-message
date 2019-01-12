@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>End-End Encryption</title>
+
+    <!-- JS-Encrypt -->
+    <script src = "http://code.jquery.com/jquery-1.8.3.min.js"></script>
+    <script src="js/jsencrypt.min.js"></script>
+    <script src="js/sender.js"></script>
+    <!--Socketio-->
+    <script src =
+    "https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js">
+    </script>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+  </head>
+  <body>
+    <p id = "intro" class = "text-center text-primary">
+     <strong> End-to-End <em><span class = "text-danger">Encryption</span></em></strong>
+    </p>
+  <!--<div style="text-align: center;">
+    <input type="text" placeholder="Target ID"id="targetIdInput">
+    <input type="text" placeholder="Message"id="messageInput">
+    <button id ="sendButton"type="button"name="button"class="btn btn-primary">
+      Send
+    </button>
+    <button type="button" name="button" class = "btn btn-danger">
+    Url-Gen
+    </button>
+  </div>
+  <div style="text-align: center;">
+  </div>-->
+
+  <div id="messageForm">
+    <textarea id="ourMessage"></textarea>
+    <button id="sendButton">Send</textarea>
+  </div>
+
+  <div id="status">
+
+  </div>
+
+  <!--<script src ="/msg.js"></script>-->
+  </body>
+
+
+
+</html>
